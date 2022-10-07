@@ -16,7 +16,7 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <Image src="/flake.png" alt="Flake Logo" width={24} height={24} />
+          <Image src="/dna.png" alt="dna Logo" width={24} height={24} />
           Cryptable
         </a>
       </div>

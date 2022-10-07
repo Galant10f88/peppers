@@ -53,7 +53,7 @@ const Hero = () => {
                         <div className={style.infoContainer}>
                             <img
                                 className="h-[2.25rem] rounded-full"
-                                src="/flake.png"
+                                src="/dna.png"
                                 alt=""
                             />
                             <div className={style.author}>
