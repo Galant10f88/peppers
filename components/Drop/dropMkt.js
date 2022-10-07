@@ -8,7 +8,7 @@ const style = {
     Ethereum: `text-fuchsia-400 font-bold hover:text-cyan-300 hover:underline underline-offset-4`,
     Polygon: `text-purple-500 hover:text-purple-300 hover:underline underline-offset-4`,
     Goerli: `text-gray-500 hover:text-gray-200 hover:underline underline-offset-4`,
-    Ava: `text-emerald-400 hover:text-fuchsia-400 hover:underline underline-offset-4`,
+    Ava: `text-green-500 hover:text-amber-400 hover:underline underline-offset-4`,
     chev: `text-cyan-300`,
     chev2: `text-sky-400`,
     chev3: `text-fuchsia-400`,

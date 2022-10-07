@@ -5,7 +5,7 @@ import Link from 'next/link'
 
 const style = {
     Binance: `text-yellow-500 hover:text-yellow-200 hover:underline underline-offset-4`,
-    Ethereum: `text-red-500 hover:text-cyan-300 hover:underline underline-offset-4`,
+    Ethereum: `text-fuchsia-400 font-bold hover:text-cyan-300 hover:underline underline-offset-4`,
     Polygon: `text-purple-500 hover:text-purple-300 hover:underline underline-offset-4`,
     Goerli: `text-gray-500 hover:text-gray-200 hover:underline underline-offset-4`,
     Ava: `text-red-500 hover:text-red-300 hover:underline underline-offset-4`,

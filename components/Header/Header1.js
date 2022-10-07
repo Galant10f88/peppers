@@ -21,7 +21,7 @@ const style = {
     headerItems: 'flex items-center justify-end',
     headerItem: 'text-white px-4 font-bold hover:text-fuchsia-400 border border-transparent hover:border-cyan-300 bg hover:bg-[#04111d] rounded-full shadow-lg hover:shadow-cyan-400/90 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 ... cursor-pointer',
     headerSwap: 'text-white px-2 font-bold hover:text-fuchsia-400 border border-transparent hover:border-cyan-300 bg hover:bg-[#04111d] rounded-full shadow-lg hover:shadow-cyan-400/90 transition ease-in-out hover:-translate-y-1 hover:scale-110 duration-300 ... cursor-pointer',
-    headerIcon: 'text-[#8a939b] text-3xl px-4 hover:text-white cursor-pointer',
+    headerIcon: 'text-slate-400 text-4xl px-4 hover:text-white cursor-pointer',
     cheating: 'text-[#04111d] px-4 font-bold text-[#04111d]',
     button: `border px-1 border-cyan-300 bg-[#04111d] p-[0.1rem] text-xl font-semibold rounded-lg cursor-pointer text-[#fb4848]`,
     snow: `h-screen w-screen bg-blue-200 relative`
@@ -52,7 +52,6 @@ const Header1 = () => {
             <div className={style.cheating}> . </div>
             </Link>
                 <div className={style.button}> <DropChains/> </div>
-            <div className={style.cheating}> . </div>
             <div className={style.headerIcon}> <DropProfile/> </div>
             <Link href='../../general/games'>
                 <div className={style.headerItem}> Games </div>

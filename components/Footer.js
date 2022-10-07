@@ -2,7 +2,7 @@ import Image from 'next/image'
 import React from 'react'
 
 const style = {
-    footer: `flex h-24 w-full items-center justify-center border-t text-[#fb4848]`
+    footer: `flex h-24 w-full items-center justify-center border-t text-cyan-300`
 }
 
 
@@ -11,13 +11,13 @@ const Footer = () => {
         <div className={style.footer}>
         <a
           className="flex items-center justify-center gap-2"
-          href="https://fyrefli.io"
+          href="https://updatefaker.com/xp/index.html"
           target="_blank"
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <Image src="/favFyre.png" alt="FyFi Logo" width={24} height={24} />
-          FYREFLi
+          <Image src="/flake.png" alt="Flake Logo" width={24} height={24} />
+          Cryptable
         </a>
       </div>
     )

@@ -12,7 +12,7 @@ const style = {
     ctaContainer: 'flex',
     accentedButton: 'relative text-lg font-semibold px-12 py-4 bg-gradient-to-br from-green-300 via-blue-500 to-purple-600 hover:from-pink-500 hover:to-yellow-500 rounded-full mr-5 text-black border border-black hover:border-white cursor-pointer',
     gameButton: 'relative text-lg font-semibold px-10 py-4 bg-gradient-to-br from-green-300 via-blue-500 to-purple-600 hover:from-pink-500 hover:to-yellow-500 rounded-full mr-5 text-black border border-black hover:border-white cursor-pointer',
-    button: 'relative text-lg font semibold px-14 py-4 bg-black rounded-full mr-5 text-cyan-300 hover:text-pink-500 hover:bg-gray-800 border border-cyan-300 hover:border-pink-500 cursor-pointer',
+    button: 'relative text-lg font-semibold px-14 py-4 rounded-full mr-5 text-cyan-300 hover:text-black bg-gradient-to-br from-black to-black hover:from-green-200 hover:via-green-400 hover:to-purple-700 border border-cyan-300 hover:border-white cursor-pointer',
     cardContainer: 'rounded-[3rem]',
     infoContainer: 'h-20 bg-[#313338] p-4 rounded-b-lg flex items-center text-white',
     author: 'flex flex-col justify-center ml-4',
