@@ -5,7 +5,7 @@ import NFTCard from './NFTCard'
 
 const style = {
   wrapper: `mx-auto grid max-w-fit flex-1 grid-cols-1 gap-8 p-10 pt-24 md:grid-cols-2 md:pt-0 lg:grid-cols-3 xl:grid-cols-4 2xl:grid-cols-5`,
-  loading: `text-white`
+  loading: `text-white text-2xl`
 }
 
 const Listings = () => {
@@ -28,7 +28,7 @@ const Listings = () => {
   return (
     <div className = {style.wrapper}>
       {loadingListings ? (
-      <div className={style.loading}>Loading listings...</div>
+      <div className={style.loading}>❄️Loading listings...❄️</div>
       ) : (
         <>
         {listings?.map((listing) => (

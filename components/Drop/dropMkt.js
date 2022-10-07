@@ -5,13 +5,14 @@ import Link from 'next/link'
 
 const style = {
     Binance: `text-yellow-500 hover:text-yellow-200 hover:underline underline-offset-4`,
-    Ethereum: `text-red-500 hover:text-cyan-300 hover:underline underline-offset-4`,
+    Ethereum: `text-fuchsia-400 font-bold hover:text-cyan-300 hover:underline underline-offset-4`,
     Polygon: `text-purple-500 hover:text-purple-300 hover:underline underline-offset-4`,
     Goerli: `text-gray-500 hover:text-gray-200 hover:underline underline-offset-4`,
     Ava: `text-emerald-400 hover:text-fuchsia-400 hover:underline underline-offset-4`,
     chev: `text-cyan-300`,
     chev2: `text-sky-400`,
-    chev3: `text-fuchsia-400`
+    chev3: `text-fuchsia-400`,
+    bold: `font-bold`
 
 }
 
@@ -21,7 +22,7 @@ const DropMkt = () => {
     const [, switchNetwork] = useNetwork()
     return (
         <Popover className="relative">
-            <Popover.Button> Marketplace</Popover.Button>
+            <Popover.Button className={style.bold}> Marketplace</Popover.Button>
 
             <Popover.Panel className="absolute z-10 py-1 px-1 bg-[#04111d] rounded border border-cyan-300 w-28">
                 <div className="grid grid-cols-2">

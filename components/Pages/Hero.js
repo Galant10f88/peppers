@@ -10,14 +10,14 @@ const style = {
     title: 'relative text-white text-[46px] font-semibold',
     description: 'text-[#8a939b] container-[400px] text-2xl mt-[0.8rem] mb-[2.5rem]',
     ctaContainer: 'flex',
-    accentedButton: 'relative text-lg font-semibold px-12 py-4 bg-[#f51111] rounded-full mr-5 text-black hover:bg-[#fb4848] border border-black hover:border-white cursor-pointer',
-    gameButton: 'relative text-lg font-semibold px-10 py-4 bg-[#f51111] rounded-full mr-5 text-black hover:bg-[#fb4848] border border-black hover:border-white cursor-pointer',
-    button: 'relative text-lg font semibold px-14 py-4 bg-black rounded-full mr-5 text-[#fb4848] hover:text-red-300 hover:bg-[#4c505c] border border-red-500 hover:border-red-500 cursor-pointer',
+    accentedButton: 'relative text-lg font-semibold px-12 py-4 bg-gradient-to-br from-green-300 via-blue-500 to-purple-600 hover:from-pink-500 hover:to-yellow-500 rounded-full mr-5 text-black border border-black hover:border-white cursor-pointer',
+    gameButton: 'relative text-lg font-semibold px-10 py-4 bg-gradient-to-br from-green-300 via-blue-500 to-purple-600 hover:from-pink-500 hover:to-yellow-500 rounded-full mr-5 text-black border border-black hover:border-white cursor-pointer',
+    button: 'relative text-lg font semibold px-14 py-4 bg-black rounded-full mr-5 text-cyan-300 hover:text-pink-500 hover:bg-gray-800 border border-cyan-300 hover:border-pink-500 cursor-pointer',
     cardContainer: 'rounded-[3rem]',
     infoContainer: 'h-20 bg-[#313338] p-4 rounded-b-lg flex items-center text-white',
     author: 'flex flex-col justify-center ml-4',
     name: '',
-    infoIcon: 'flex justify-end items-center flex-1 text-[#8a939b] text-3xl font-bold'
+    infoIcon: 'flex justify-end items-center flex-1 text-[#8a939b] text-3xl font-bold',
 }
 
 const Hero = () => {
@@ -53,13 +53,13 @@ const Hero = () => {
                         <div className={style.infoContainer}>
                             <img
                                 className="h-[2.25rem] rounded-full"
-                                src="https://www.fyrefli.io/wp-content/uploads/elementor/thumbs/logo-pnetd4fcdgnrblg324ke3or6dzpat0mz7w6qp3alr4.png"
+                                src="/flake.png"
                                 alt=""
                             />
                             <div className={style.author}>
                                 <div className={style.name}>Jolly Roger</div>
                                 <a
-                                    className="text-[#fb4848]"
+                                    className="text-cyan-300"
                                     href="assets source. Min 41 4 help"
                                 >
                                     Captain Flint

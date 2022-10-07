@@ -11,17 +11,18 @@ const style = {
     Ava: `text-red-500 hover:text-red-300 hover:underline underline-offset-4`,
     chev: `text-cyan-300`,
     chev2: `text-sky-400`,
-    chev3: `text-fuchsia-400`
+    chev3: `text-fuchsia-400`,
+    bold: `font-bold`
 
 }
 
-//{<span className={style.chev2}>⌄</span><span className={style.chev3}>⌄</span>}
+//{<span className={style.chev2}>⌄</span><span className={style.chev3}>⌄</span>} 🔥FyreSwap🔥
 
 const DropMkt = () => {
     const [, switchNetwork] = useNetwork()
     return (
         <Popover className="relative">
-            <Popover.Button> 🔥FyreSwap🔥</Popover.Button>
+            <Popover.Button className={style.bold}> ❄️ColdSwap❄️</Popover.Button>
 
             <Popover.Panel className="absolute z-10 py-1 px-1 bg-[#04111d] rounded border border-cyan-300 w-24">
                 <div className="grid grid-cols-2">
