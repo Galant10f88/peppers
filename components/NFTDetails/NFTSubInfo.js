@@ -3,7 +3,7 @@ import { AiFillEye, AiFillHeart } from 'react-icons/ai'
 const style = {
   wrapper: `flex space-x-6 py-6`,
   textInfoContainer: `text-lg font-medium text-gray-400`,
-  owner: `text-[#fb4848]`,
+  owner: `text-fuchsia-400`,
   iconTextInfoContainer: `flex items-center space-x-2`,
   icon: `h-7 w-7 text-gray-400`,
 }

@@ -6,7 +6,7 @@ const style = {
     title: 'relative text-white text-[46px] font-semibold',
     description: 'text-white container-[400px] text-2xl mt-[0.8rem] mb-[2.5rem]',
     copyContainer: 'w-1/2',
-    fyre: `text-red-500`
+    fyre: `text-fuchsia-400`
 }
 
 const GiveAway = () => {
@@ -18,7 +18,7 @@ const GiveAway = () => {
                         GiveAway Scavenger hunt!
                     </div>
                     <div className={style.description}>
-                        There is a hidden button on the header. If you can find it you will recieve a free NFT from the <span className={style.fyre}>FYREFLi</span> collection!
+                        There is a hidden button on the header. If you can find it you will recieve a free NFT from the <span className={style.fyre}>Cryptable</span> collection!
                     </div>
                 </div>
             </div>

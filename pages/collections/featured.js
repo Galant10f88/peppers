@@ -14,10 +14,10 @@ const style = {
   banner: `rounded-t-lg object-cover`,
   collectionInfoWrapper: `absolute inset-0 top-1/3 z-10 h-2/3 -translate-y-5`,
   collectionInfoContainer: `flex flex-col items-center space-y-4`,
-  collectionLogoContainer: `flex items-center justify-center rounded-full border-4 border-red-500`,
+  collectionLogoContainer: `flex items-center justify-center rounded-full border-4 border-fuchsia-500`,
   collectionLogo: `rounded-full object-cover`,
   collectionInfo: `flex flex-col items-center space-y-6 text-white`,
-  title: `text-4xl font-bold text-gray-200 underline underline-offset-8 decoration-red-500`,
+  title: `text-4xl font-bold text-gray-200 underline underline-offset-8 decoration-cyan-500`,
   creatorInfoContainer: `flex items-center space-x-1`,
   creator: `text-sm font-medium text-white`,
   creatorName: `cursor-pointer text-blue-500`,
@@ -63,7 +63,7 @@ const Test = () => {
               <div className={style.collectionLogoContainer}>
                 <Image
                   className={style.collectionLogo}
-                  src="/favFyre.png"
+                  src="/dna.png"
                   height={128}
                   width={128}
                   alt='logo'

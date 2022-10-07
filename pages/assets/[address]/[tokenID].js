@@ -14,7 +14,7 @@ const style = {
   leftElement: `hidden lg:block`,
   rightContainer: `flex flex-1 flex-col space-y-4`,
   buyoutContainer: `flex-1`,
-  loading: `text-white`
+  loading: `text-white text-xl`
 }
 
 const NFT = () => {
