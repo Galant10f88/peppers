@@ -4,6 +4,7 @@ import { AiOutlineDown } from 'react-icons/ai'
 import ethLogo from '../../assets/eth.png'
 import Image from 'next/image'
 import { useNetwork, ChainId } from '@thirdweb-dev/react'
+import Link from 'next/link'
 
 const style = {
     title: 'relative flex items-center justify-center text-white text-[40px] font-semibold',
@@ -32,14 +33,16 @@ const FyreSwap = () => {
             <div className={style.wrapper}>
                 <div className={style.content}>
                     <div className={style.title}>
-                        CryptSwap
+                    🔥FyreSwap🔥
                     </div>
                     <div>
                         <br/>
                     </div>
                     <div className={style.formHeader}>
                         <div className={style.swap}>Swap</div>
+                        <Link href='../../currency/testing'>
                         <button className={style.binanceButton} onClick={() => switchNetwork(ChainId.BSC)}>Binance</button>
+                        </Link>
                         <button className={style.ethButton} onClick={() => switchNetwork(ChainId.Mainnet)}>Ethereum</button>
                         <button className={style.polyButton} onClick={() => switchNetwork(ChainId.Polygon)}>Polygon</button>
                         <div>

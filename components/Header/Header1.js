@@ -9,7 +9,7 @@ import DropMkt from '../Drop/dropMkt'
 import DropInfo from '../Drop/dropInfo'
 import DropSwap from '../Drop/dropSwap'
 import DropProfile from '../Drop/dropProfile'
-import dna from '../../assets/dna.png'
+import diamond from '../../assets/diamond.png'
 
 const style = {
     wrapper: 'sticky top-0 z-50 bg-[#04111d] w-screen px-[1.2rem] py-2 flex shadow-xl shadow-cyan-500/50',
@@ -32,8 +32,8 @@ const Header1 = () => {
     return <div className={style.wrapper}>
         <Link href="/">
             <div className={style.logoContainer}>
-                    <Image src={dna} height={40} width={40} alt='' />
-                    <div className={style.logoText}>Cryptable</div>
+                    <Image src={diamond} height={40} width={40} alt='' />
+                    <div className={style.logoText}>FYREFLi</div>
             </div>
             </Link>
         <div className={style.searchBar}>

@@ -16,8 +16,8 @@ const Footer = () => {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <Image src="/dna.png" alt="dna Logo" width={24} height={24} />
-          Cryptable
+          <Image src="/diamond.png" alt="dna Logo" width={24} height={24} />
+          FYREFLi
         </a>
       </div>
     )

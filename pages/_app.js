@@ -14,8 +14,8 @@ function MyApp({ Component, pageProps }) {
       }}
     >
         <Head>
-          <title>Cryptable</title>
-          <link rel="icon" href="/dna.png" />
+          <title>FYREFLi</title>
+          <link rel="icon" href="/diamond.png" />
         </Head>
         <Header1 />
         

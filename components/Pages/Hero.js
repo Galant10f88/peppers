@@ -52,8 +52,8 @@ const Hero = () => {
                         />
                         <div className={style.infoContainer}>
                             <img
-                                className="h-[2.25rem] rounded-full"
-                                src="/dna.png"
+                                className="h-[2.25rem]" //rounded-full
+                                src="/diamond.png"
                                 alt=""
                             />
                             <div className={style.author}>
