@@ -17,7 +17,7 @@ const Footer = () => {
         >
           Powered by{' '}
           <Image src="/diamond.png" alt="dna Logo" width={24} height={24} />
-          FYREFLi
+          CRYPTABLE
         </a>
       </div>
     )

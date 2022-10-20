@@ -33,7 +33,7 @@ const Header1 = () => {
         <Link href="/">
             <div className={style.logoContainer}>
                     <Image src={diamond} height={40} width={40} alt='' />
-                    <div className={style.logoText}>FYREFLi</div>
+                    <div className={style.logoText}>CRYPTABLE</div>
             </div>
             </Link>
         <div className={style.searchBar}>

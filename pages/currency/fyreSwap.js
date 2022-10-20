@@ -33,7 +33,7 @@ const FyreSwap = () => {
             <div className={style.wrapper}>
                 <div className={style.content}>
                     <div className={style.title}>
-                    🔥FyreSwap🔥
+                    💎Swap💎
                     </div>
                     <div>
                         <br/>

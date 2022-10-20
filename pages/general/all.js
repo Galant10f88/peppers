@@ -63,7 +63,7 @@ const Collection = () => {
               <div className={style.collectionLogoContainer}>
                 <Image
                   className={style.collectionLogo}
-                  src="/dna.png"
+                  src="/diamond.png"
                   height={128}
                   width={128}
                   alt='logo'

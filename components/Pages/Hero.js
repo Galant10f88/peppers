@@ -8,7 +8,7 @@ const style = {
     contentWrapper: 'flex h-screen relative justify-center flex-wrap items-center',
     copyContainer: 'w-1/2',
     title: 'relative text-white text-[46px] font-semibold',
-    description: 'text-[#8a939b] container-[400px] text-2xl mt-[0.8rem] mb-[2.5rem]',
+    description: 'text-cyan-400 container-[400px] text-2xl mt-[0.8rem] mb-[2.5rem]',
     ctaContainer: 'flex',
     accentedButton: 'relative text-lg font-semibold px-12 py-4 bg-gradient-to-br from-green-300 via-blue-500 to-purple-600 hover:from-pink-500 hover:to-yellow-500 rounded-full mr-5 text-black border border-black hover:border-white cursor-pointer',
     gameButton: 'relative text-lg font-semibold px-10 py-4 bg-gradient-to-br from-green-300 via-blue-500 to-purple-600 hover:from-pink-500 hover:to-yellow-500 rounded-full mr-5 text-black border border-black hover:border-white cursor-pointer',
@@ -18,6 +18,7 @@ const style = {
     author: 'flex flex-col justify-center ml-4',
     name: '',
     infoIcon: 'flex justify-end items-center flex-1 text-[#8a939b] text-3xl font-bold',
+    crypt: `text-fuchsia-400`
 }
 
 const Hero = () => {
@@ -30,7 +31,7 @@ const Hero = () => {
                             Discover, collect, and sell next level NFTs
                         </div>
                         <div className={style.description}>
-                            FYREFLi ... Pirates here to take back the high seas.
+                            <span className={style.crypt}>CRYPTABLE</span> ... Pirates here to take back the high seas.
                         </div>
                         <div className={style.ctaContainer}>
                             <Link href='../general/all'>
