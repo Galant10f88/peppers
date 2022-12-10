@@ -8,6 +8,7 @@ import {
   import { useRouter } from "next/router";
 
   const style = {
+    totalC: `bg-gradient-to-r from-slate-900 via-purple-900 to-slate-900`,
     title: 'relative flex items-center justify-center text-gray-300 text-[40px] font-semibold',
     wrapper: `w-screen flex items-center justify-center mt-14`,
     content: `bg-[#191B1F] w-[40rem] rounded-2xl p-4 border border-red-800`,
@@ -86,7 +87,7 @@ import {
 
     return (
       //<form onSubmit={(e) => handleChange(e)}>
-          <div>
+          <div className={style.totalC}>
           <div className={style.title}>Testing Grounds</div>
           <div className={style.info}>Hidden page. This is where you would claim a GiveAway.</div>
         <div className={style.wrapper}>
@@ -157,6 +158,9 @@ import {
               Confirm
             </button>
           </div>
+        </div>
+        <div>
+          <br/>
         </div>
         </div>
       //</form>

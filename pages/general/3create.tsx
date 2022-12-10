@@ -11,9 +11,9 @@ import {
   const style = {
     title: 'relative flex items-center justify-center text-gray-300 text-[40px] font-semibold',
     wrapper: `w-screen flex items-center justify-center mt-14`,
-    content: `bg-[#191B1F] w-[40rem] rounded-2xl p-4 border border-fuchsia-400`,
+    content: `bg-gradient-to-b from-gray-900 to-gray-600 w-[40rem] rounded-2xl p-4 border border-fuchsia-400`,
     formHeader: `px-2 flex items-center justify-between font-semibold text-xl`,
-    transferPropContainer: `bg-[#20242A] my-3 rounded-2xl p-2 text-3xl  border border-[#20242A] hover:border-[#41444F]  flex justify-between`,
+    transferPropContainer: `bg-neutral-900 my-3 rounded-2xl p-2 text-3xl  border border-[#20242A] hover:border-gray-400  flex justify-between`,
     transferPropInput: `bg-transparent placeholder:text-[#B2B9D2] outline-none mb-6 w-full text-2xl text-white`,
     currencySelector: `flex w-1/4`,
     currencySelectorContent: `w-full h-min flex justify-between items-center bg-[#2D2F36] hover:bg-[#41444F] rounded-2xl text-xl font-medium cursor-pointer p-2 mt-[-0.2rem]`,
@@ -23,10 +23,10 @@ import {
     confirmButton: `w-full bg-cyan-500 my-2 rounded-2xl py-5 px-8 text-2xl font-semibold flex items-center justify-center cursor-pointer border border-black hover:border-white`,
     swap: `text-[#fb4848]`,
     ctaContainer: 'flex',
-    gameButton: 'flex items-center relative text-lg font-semibold px-8 py-2 bg-black rounded-lg mr-5 text-cyan-300 hover:bg-black border border-black hover:border-cyan-300 peer-checked:text-cyan-300 peer-checked:border-cyan-300 shadow-lg hover:shadow-fuchsia-500/60 cursor-pointer',
-    directButton: 'flex items-center relative text-lg font-semibold px-8 py-2 bg-black rounded-lg mr-5 text-cyan-300 hover:bg-black border border-black hover:border-cyan-300 peer-checked:text-cyan-300 peer-checked:border-cyan-300 shadow-lg hover:shadow-fuchsia-500/60 cursor-pointer',
+    gameButton: 'flex justify-self-center relative text-lg font-semibold px-8 py-2 bg-black rounded-lg mr-5 text-cyan-300 hover:bg-black border border-black hover:border-cyan-300 peer-checked:text-cyan-300 peer-checked:border-cyan-300 shadow-lg hover:shadow-fuchsia-500/60 cursor-pointer',
+    directButton: 'flex justify-self-center relative text-lg font-semibold px-8 py-2 bg-black rounded-lg mr-5 text-cyan-300 hover:bg-black border border-black hover:border-cyan-300 peer-checked:text-cyan-300 peer-checked:border-cyan-300 shadow-lg hover:shadow-fuchsia-500/60 cursor-pointer',
     input: `hidden peer`,
-    list: `flex`,
+    list: `flex space-x-20 ml-16`,
 }
   
   const Create: NextPage = () => {
@@ -213,6 +213,9 @@ import {
             </button>
           </div>
         </div>
+          <div>
+            <br/>
+          </div>
         </div>
       </form>
     );

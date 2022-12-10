@@ -3,7 +3,7 @@ import Link from 'next/link'
 
 
 const style = {
-    wrapper: 'relative h-[170vh]',
+    wrapper: '`bg-gradient-to-b from-gray-900 to-gray-600 bg-gradient-to-r relative h-[200vh]',
     container: 'before:content-[""] before:bg-black before:absolute before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[url("https://acegif.com/wp-content/gifs/raining-money-14.gif")] before:bg-cover before:bg:-center before:opacity-30',
     contentWrapper: 'flex h-screen relative justify-center flex-wrap items-center',
     copyContainer: 'w-1/2',
