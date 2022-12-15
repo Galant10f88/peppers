@@ -22,7 +22,7 @@ const style = {
     swap: `text-fuchsia-400`,
     binanceButton: 'relative text-lg font-semibold px-8 py-1 bg-yellow-500 rounded-full mr-5 text-yellow-300 hover:bg-black hover:text-yellow-100 border border-yellow-500 hover:border-yellow-100 cursor-pointer shadow-lg hover:shadow-yellow-500/80 bg-gradient-to-r from-yellow-500 via-teal-500 to-sky-500',
     ethButton: 'relative text-lg font-semibold px-8 py-1 bg-blue-500 rounded-full mr-5 text-cyan-300 hover:bg-black hover:text-cyan-100 border border-cyan-400 hover:border-cyan-100 cursor-pointer shadow-lg hover:shadow-cyan-500/90 bg-gradient-to-r from-cyan-500 via-indigo-500 to-purple-500',
-    polyButton: 'relative text-lg font-semibold px-8 py-1 bg-purple-500 rounded-full mr-5 text-purple-300 hover:bg-black hover:text-purple-100 border border-purple-400 hover:border-purple-100 cursor-pointer shadow-lg hover:shadow-fuchsia-500 bg-gradient-to-r from-purple-500 via-indigo-500 to-cyan-500',
+    polyButton: 'relative text-lg font-semibold px-8 py-1 bg-purple-500 rounded-full mr-5 text-purple-200 hover:bg-black hover:text-purple-50 border border-purple-400 hover:border-purple-100 cursor-pointer shadow-lg hover:shadow-fuchsia-500 bg-gradient-to-r from-purple-500 via-cyan-500 to-yellow-500',
     info: `w-screen flex items-center justify-center text-gray-500`
 }
 
@@ -33,13 +33,13 @@ const DiaSwap = () => {
             <div className={style.wrapper}>
                 <div className={style.content}>
                     <div className={style.title}>
-                    💎Swap💎
+                    CryptoSwap
                     </div>
                     <div>
                         <br/>
                     </div>
                     <div className={style.formHeader}>
-                        <div className={style.swap}>Swap</div>
+                        <div className={style.swap}>Chains</div>
                         <Link href='../../currency/testing'>
                         <button className={style.binanceButton} onClick={() => switchNetwork(ChainId.BSC)}>Binance</button>
                         </Link>
