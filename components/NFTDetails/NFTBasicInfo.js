@@ -5,7 +5,7 @@ import NFTSubInfo from './NFTSubInfo'
 
 const style = {
   topContainer: `flex items-center justify-between`,
-  collectionTitle: `text-lg font-semibold text-fuchsia-400`,
+  collectionTitle: `text-3xl font-semibold text-red-500`,
   actionItems: `flex divide-x divide-gray-300 rounded-lg border border-gray-300`,
   actionItemContainer: `flex cursor-pointer items-center justify-center p-3`,
   icon: `h-6 w-6 text-gray-400`,
@@ -32,7 +32,7 @@ const NFTBasicInfo = ({name}) => {
     <div>
       <div className = {style.topContainer}>
         <div className = {style.collectionTitle}>
-          Collection
+          Ghost Pepper
         </div>
 
         <div className = {style.actionItems}>
@@ -47,7 +47,7 @@ const NFTBasicInfo = ({name}) => {
       <div className = {style.assetTitle}>{name}</div>
 
       <div className = {style.subInfoContainer}>
-        <NFTSubInfo />
+        
       </div>
       
     </div>

@@ -1,4 +1,3 @@
-//import { useAddress, useMetamask } from '@thirdweb-dev/react'
 //import Main from '../components/Home'
 import Hero from '../components/Pages/Hero'
 //import type { NextPage } from 'next'

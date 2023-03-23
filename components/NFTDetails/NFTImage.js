@@ -1,6 +1,5 @@
 import Image from 'next/image'
 import { AiOutlineHeart } from 'react-icons/ai'
-import { MediaRenderer } from '@thirdweb-dev/react'
 
 const style = {
   wrapper: `rounded-lg border dark:border-transparent bg-[#313339]`,
@@ -11,27 +10,24 @@ const style = {
   nftImage: `rounded-b-lg object-cover`
 }
 
-const NFTImage = ({image}) => {
-  console.log(image)
+const NFTImage = () => {
   return (
     <div className = {style.wrapper}>
       <div className = {style.nftHeader}>
-        <Image height = {20} width = {20} 
-          src = '/eth-logo.svg' alt = 'eth' />
 
         <div className = {style.likesContainer}>
           <AiOutlineHeart className = {style.heartIcon}/>
-          <div className = {style.likesCount}>200</div>
+          
         </div>
       </div>
 
       <div>
-        {image&&<MediaRenderer
-          src = {image}
+        <img
+          src = "https://cdn.shopify.com/s/files/1/0257/4565/3811/products/061422_T118630_202040_Bonnie_RedGhostPepper_ALT_02.jpg?v=1656011722&width=250"
           width = {448}
           height = {448}
           alt = "nft"
-        />}
+        />
       </div>
     </div>
   )

@@ -12,10 +12,10 @@ const style = {
   priceInfoContainer: `space-y-1`,
   mediumFont: `font-medium`,
   priceContainer: `flex items-center space-x-2`,
-  price: `text-3xl font-bold`,
+  price: `text-3xl font-bold text-green-500`,
   buttonsContainer: `flex space-x-4`,
   button: `flex w-[14rem] items-center cursor-pointer justify-center space-x-4 rounded-lg py-2 text-white`,
-  purchaseButton: `bg-fuchsia-400 hover:bg-cyan-400`,
+  purchaseButton: `bg-blue-500 hover:bg-green-500`,
   offerButton: `border border-black bg-[#363840]`,
   buttonIcon: 'h-6 w-6'
 }
@@ -26,25 +26,14 @@ const NFTSalesInfo = ({price, buyNFT}) => {
       <div className = {style.header}>
         <div className = {style.headerContent}>
           <AiOutlineClockCircle className = {`${style.greyText} ${style.headerIcon}`} />
-
-          <div className = {style.greyText}>
-            Sale ends August 15th, 2022 at 8pm GMT-7
-          </div>
         </div>
         <AiOutlineQuestionCircle className = {style.headerIcon} />
       </div>
 
       <div className = {style.mainContainer}>
         <div className = {style.priceInfoContainer}>
-          <div className = {`${style.greyText} ${style.mediumFont}`}>Buy at</div>
           <div className = {style.priceContainer}>
-            <Image
-              src = '/weth-logo.svg'
-              width = {24}
-              height = {24}
-              alt = 'weth'
-            />
-            <span className = {style.price}>{price}</span>
+            <span className = {style.price}>$25</span>
           </div>
         </div>
 
@@ -60,7 +49,7 @@ const NFTSalesInfo = ({price, buyNFT}) => {
         <div className = {style.buttonContainer}>
           <div className = {`${style.button} ${style.offerButton}`}>
             <BsFillTagFill className = {style.buttonIcon} />
-            <span className = 'text-lg font-semibold'>Make Offer</span>
+            <span className = 'text-lg font-semibold'>Add to cart</span>
           </div>
         </div>
       </div>

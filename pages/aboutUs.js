@@ -1,10 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
-import Products from '../products'
+import Products from '../components/products'
 
 const style = {
     wrapper: 'relative',
-    container: 'before:content-[""] before:bg-black before:fixed before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[url("https://cdn.wikifarmer.com/wp-content/uploads/2020/03/Growing-Peppers-for-Profit-%E2%80%93-Pepper-and-Chilies-Farming.jpg")] before:bg-cover before:bg:-center before:opacity-60',
+    container: 'before:content-[""] before:bg-black before:fixed before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Maler_der_Grabkammer_des_Sennudem_001.jpg/500px-Maler_der_Grabkammer_des_Sennudem_001.jpg")] before:bg-cover before:bg:-center before:opacity-60',
     contentWrapper: 'flex h-screen relative justify-center flex-wrap items-center',
     copyContainer: 'w-fit bg-transparent backdrop-blur-xl rounded-lg px-2 mr-10',
     title: 'relative text-white text-[46px] font-semibold',
@@ -21,53 +21,23 @@ const style = {
     rocket: 'text-transparent bg-clip-text bg-gradient-to-r from-red-500 via-lime-500 to-green-300 font-bold text-[46px]'
 }
 
-const Hero = () => {
+const AboutUs = () => {
     return (
         <div className={style.wrapper}>
             <div className={style.container}>
                 <div className={style.contentWrapper}>
                     <div className={style.copyContainer}>
                         <div className={style.title}>
-                            Welcome to <span class={style.rocket}>Hot Rockets</span>!
+                            About our Farming
                         </div>
                         <div className={style.description}>
-                            The premier site to buy high quality <span class={style.hot}>Peppers</span>
+                            We use a farming technique dating back 10,000 years. First used for peppers in South America.
                         </div>
                     </div>
-                    <Link href='../Products/Ghost'>
-                    <div className={style.cardContainer}>
-                        <img
-                            className="rounded-t-lg"
-                            src='https://cdn.shopify.com/s/files/1/0257/4565/3811/products/061422_T118630_202040_Bonnie_RedGhostPepper_ALT_02.jpg?v=1656011722&width=250'
-                            alt=""
-                        />
-                        <div className={style.infoContainer}>
-                            <img
-                                className="h-[2.25rem]" //rounded-full
-                                src="/pepper.png"
-                                alt=""
-                            />
-                            <div className={style.author}>
-                                <div className={style.name}>Featured Pepper</div>
-                                <a
-                                    className="text-cyan-300"
-                                    href="assets source. Min 41 4 help"
-                                >
-                                    Ghost Pepper
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    </Link>
                 </div>
             </div>
-            <Products/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
         </div>
     )
 }
 
-export default Hero
+export default AboutUs
