@@ -29,13 +29,13 @@ const Cart = () => {
                             Cart
                         </div>
                         <div className={style.description}>
-                        <ul class="list-disc ml-8">
+                        <ul className="list-disc ml-8">
                             <li>Pepper 1</li>
                             <li>Pepper 2</li>
                             <li>Pepper 3</li>
                         </ul>
                         </div>
-                        <div class={style.button}>Purchase</div>
+                        <div className={style.button}>Purchase</div>
                     </div>
                 </div>
             </div>

@@ -28,10 +28,10 @@ const Hero = () => {
                 <div className={style.contentWrapper}>
                     <div className={style.copyContainer}>
                         <div className={style.title}>
-                            Welcome to <span class={style.rocket}>Hot Rockets</span>!
+                            Welcome to <span className={style.rocket}>Hot Rockets</span>!
                         </div>
                         <div className={style.description}>
-                            The premier site to buy high quality <span class={style.hot}>Peppers</span>
+                            The premier site to buy high quality <span className={style.hot}>Peppers</span>
                         </div>
                     </div>
                     <Link href='../Products/Ghost'>
